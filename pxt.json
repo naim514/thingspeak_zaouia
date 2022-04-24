@@ -1,0 +1,31 @@
+{
+    "name": "ThingSpeak",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "KSRobot_IOT": "github:kaise-ksrobot/pxt-ksrobot-iot#3ce34473788d45f37f6f6deedad608c9e8d1f5fd",
+        "microphone": "*",
+        "pxt-PTKidsBIT-IoT": "github:ibuilds/pxt-ptkidsbit-iot#v2.1.3"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v2.0.10",
+        "tag": "v2.0.10",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/9b7b5f1d10f133bc9c14ef24e1b8a67333f12c29",
+        "target": "4.0.18",
+        "pxt": "5.15.13",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
